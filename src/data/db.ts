@@ -1,89 +1,64 @@
+import type { MenuItem } from '../types'
 
-
-// array de guitarras se define asi por que no solo es 1 son varios 
-export const db: Guitar[] = [
+export const menuItems : MenuItem[] = [
     {
-        id: 1,
-        name: 'Lukather',
-        image: 'guitarra_01',
-        description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-        price: 299,
+      "id": 1,
+      "name": "Pizza a la Leña Chica",
+      "price": 30
     },
     {
-        id: 2,
-        name: 'SRV',
-        image: 'guitarra_02',
-        description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-        price: 349,
+      "id": 2,
+      "name": "Pizza a la Leña Mediana",
+      "price": 50
     },
     {
-        id: 3,
-        name: 'Borland',
-        image: 'guitarra_03',
-        description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-        price: 329,
+      "id": 3,
+      "name": "Rebanada de Pay de Limón",
+      "price": 30
     },
     {
-        id: 4,
-        name: 'VAI',
-        image: 'guitarra_04',
-        description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-        price: 299,
+      "id": 4,
+      "name": "Rebanada de Pastel de Chocolate",
+      "price": 30
     },
     {
-        id: 5,
-        name: 'Thompson',
-        image: 'guitarra_05',
-        description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-        price: 399,
+      "id": 5,
+      "name": "Jugo de Naranja",
+      "price": 15
     },
     {
-        id: 6,
-        name: 'White',
-        image: 'guitarra_06',
-        description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-        price: 329,
+      "id": 6,
+      "name": "Pizza a la Leña Grande",
+      "price": 70
     },
     {
-        id: 7,
-        name: 'Cobain',
-        image: 'guitarra_07',
-        description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-        price: 349,
+      "id": 7,
+      "name": "Rib Eye 800g",
+      "price": 100
     },
     {
-        id: 8,
-        name: 'Dale',
-        image: 'guitarra_08',
-        description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-        price: 379,
+      "id": 8,
+      "name": "Jugo de Naranja",
+      "price": 15
     },
     {
-        id: 9,
-        name: 'Krieger',
-        image: 'guitarra_09',
-        description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-        price: 289,
+      "id": 9,
+      "name": "Tequila",
+      "price": 40
     },
     {
-        id: 10,
-        name: 'Campbell',
-        image: 'guitarra_10',
-        description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-        price: 349,
+      "id": 10,
+      "name": "Rebanada de Pay de Queso",
+      "price": 30
     },
     {
-        id: 11,
-        name: 'Reed',
-        image: 'guitarra_11',
-        description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-        price: 399,
+      "id": 11,
+      "name": "Café Americano",
+      "price": 20
     },
     {
-        id: 12,
-        name: 'Hazel',
-        image: 'guitarra_12',
-        description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
-        price: 379,
-    },
+      "id": 12,
+      "name": "Café Capuchino",
+      "price": 40
+    }
 ]
